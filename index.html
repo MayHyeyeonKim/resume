@@ -5,15 +5,23 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto'>
-<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+    integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Gothic+A1:wght@200&family=Sunflower&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
-<link href="https://fonts.googleapis.com/icon?family=Material+Icons|Material+Icons+Sharp|Material+Icons+Two+Tone|Material+Icons+Outlined"rel="stylesheet">
+<link
+    href="https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Gothic+A1:wght@200&family=Sunflower&display=swap"
+    rel="stylesheet">
+<link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+<link
+    href="https://fonts.googleapis.com/icon?family=Material+Icons|Material+Icons+Sharp|Material+Icons+Two+Tone|Material+Icons+Outlined"
+    rel="stylesheet">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Gothic+A1:wght@200&family=Josefin+Sans&display=swap" rel="stylesheet">
+<link
+    href="https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Gothic+A1:wght@200&family=Josefin+Sans&display=swap"
+    rel="stylesheet">
 
 <style>
     html,
@@ -26,184 +34,191 @@
     h6 {
         font-family: 'Sunflower', sans-serif;
     }
-.scrollable {
-  overflow: auto; -webkit-overflow-scrolling: touch;
-}
 
-.more {
-    position: relative;
-    top: -33px;
-    text-align: center;
-    cursor: pointer ;
-}
+    .scrollable {
+        overflow: auto;
+        -webkit-overflow-scrolling: touch;
+    }
 
-.trigger {
-    cursor: pointer;
-}
+    .more {
+        position: relative;
+        top: -33px;
+        text-align: center;
+        cursor: pointer;
+    }
 
-.hidden {
-  display: none;
-  opacity: 0;
-}
+    .trigger {
+        cursor: pointer;
+    }
 
-.appear {
-  animation: fade-in 2s;
-  animation-fill-mode: forwards;
-  display: block;
-}
+    .hidden {
+        display: none;
+        opacity: 0;
+    }
 
-.disappear {
-  animation: fade-out 1s;
-  animation-fill-mode: forwards;
-}
+    .appear {
+        animation: fade-in 2s;
+        animation-fill-mode: forwards;
+        display: block;
+    }
 
-.short:after {
-    letter-spacing: 1px;
-    content: 'Detail';
-    cursor: pointer;
-}
+    .disappear {
+        animation: fade-out 1s;
+        animation-fill-mode: forwards;
+    }
 
-.flipup{
-    animation: flipup .5s forwards;
-}
+    .short:after {
+        letter-spacing: 1px;
+        content: 'Detail';
+        cursor: pointer;
+    }
 
-.flipdown{
-    animation: flipdown .5s forwards;
-}
+    .flipup {
+        animation: flipup .5s forwards;
+    }
 
-.iconcolor{
-   color: #735d78;
-}
+    .flipdown {
+        animation: flipdown .5s forwards;
+    }
 
-.tealcolor{
-    color: whitesmoke;
-    background-color: #b392ac;
-}
+    .iconcolor {
+        color: #735d78;
+    }
 
-.pra{
-    padding-top: 70px;
-    padding-left: 30px;
-    padding-right: 30px;
+    .tealcolor {
+        color: whitesmoke;
+        background-color: #b392ac;
+    }
 
-}
+    .pra {
+        padding-top: 70px;
+        padding-left: 30px;
+        padding-right: 30px;
 
-.name {
-    font-family: 'Josefin Sans', sans-serif;
-    font-size: 35px;
-    text-align: right;
-    font-weight: 900;
-    text-shadow: 2px 2px 2px lightgrey;
+    }
 
-}
+    .name {
+        font-family: 'Josefin Sans', sans-serif;
+        font-size: 35px;
+        text-align: right;
+        font-weight: 900;
+        text-shadow: 2px 2px 2px lightgrey;
 
-
-.href{
-    background-color: #d1b3c4;
-}
-
-footer {
-    clear: both;
-    text-align: center;
-    padding: 1em;
-}
+    }
 
 
-@keyframes fade-in {
-  from {
-    opacity: 0;
-  }
-  to {
-    opacity: 1;
-  }
-}
+    .href {
+        background-color: #d1b3c4;
+    }
 
-@keyframes fade-out {
-  from {
-    opacity: 1;
+    footer {
+        clear: both;
+        text-align: center;
+        padding: 1em;
+    }
 
-  }
-  to {
-    opacity: 0;
-  }
-}
 
-@keyframes flipup {
-  from {
-    transform:rotate(0deg);
-    
-}
-to {
-    transform:rotate(180deg);
-  }
-}
+    @keyframes fade-in {
+        from {
+            opacity: 0;
+        }
 
-@keyframes flipdown {
-  from {
-    transform:rotate(180deg);
-    
-}
-to {
-    transform:rotate(360deg);
-  }
-}
+        to {
+            opacity: 1;
+        }
+    }
 
-@media screen and (min-width: 541px) { 
-    .phone { 
-        padding-top: 19px;
-        padding-left: 25px;
-        padding-right: 22px;
-        padding-bottom: 16px;
-        background-image: url(./profile/smartphone_1280.png);
-        background-size: contain;
-        background-repeat: no-repeat;
-        border-radius: 50px;
-    } 
-}
+    @keyframes fade-out {
+        from {
+            opacity: 1;
 
-@media screen and (max-width: 540px) { 
-    .phone { 
-        padding-top: 15px;
-        padding-left: 22px;
-        padding-right: 22px;
-        padding-bottom: 16px;
-        background-image: url(./profile/smartphone_1280.png);
-        background-size: contain;
-        background-repeat: no-repeat;
-        border-radius: 40px;
-    } 
-}
+        }
 
-@media screen and (max-width: 460px) { 
-    .phone { 
-        padding-top: 10px;
-        padding-left: 17px;
-        padding-right: 23px;
-        padding-bottom: 10px;
-        background-image: url(./profile/smartphone_1280.png);
-        background-size: contain;
-        background-repeat: no-repeat;
-        border-radius: 35px;
-    } 
-}
+        to {
+            opacity: 0;
+        }
+    }
 
-@media screen and (max-width: 390px) { 
-    .phone { 
-        padding-top: 10px;
-        padding-left: 13px;
-        padding-right: 12px;
-        padding-bottom: 10px;
-        background-image: url(./profile/smartphone_1280.png);
-        background-size: contain;
-        background-repeat: no-repeat;
-        border-radius: 30px;
-    } 
-}
+    @keyframes flipup {
+        from {
+            transform: rotate(0deg);
+
+        }
+
+        to {
+            transform: rotate(180deg);
+        }
+    }
+
+    @keyframes flipdown {
+        from {
+            transform: rotate(180deg);
+
+        }
+
+        to {
+            transform: rotate(360deg);
+        }
+    }
+
+    @media screen and (min-width: 541px) {
+        .phone {
+            padding-top: 19px;
+            padding-left: 25px;
+            padding-right: 22px;
+            padding-bottom: 16px;
+            background-image: url(./profile/smartphone_1280.png);
+            background-size: contain;
+            background-repeat: no-repeat;
+            border-radius: 50px;
+        }
+    }
+
+    @media screen and (max-width: 540px) {
+        .phone {
+            padding-top: 15px;
+            padding-left: 22px;
+            padding-right: 22px;
+            padding-bottom: 16px;
+            background-image: url(./profile/smartphone_1280.png);
+            background-size: contain;
+            background-repeat: no-repeat;
+            border-radius: 40px;
+        }
+    }
+
+    @media screen and (max-width: 460px) {
+        .phone {
+            padding-top: 10px;
+            padding-left: 17px;
+            padding-right: 23px;
+            padding-bottom: 10px;
+            background-image: url(./profile/smartphone_1280.png);
+            background-size: contain;
+            background-repeat: no-repeat;
+            border-radius: 35px;
+        }
+    }
+
+    @media screen and (max-width: 390px) {
+        .phone {
+            padding-top: 10px;
+            padding-left: 13px;
+            padding-right: 12px;
+            padding-bottom: 10px;
+            background-image: url(./profile/smartphone_1280.png);
+            background-size: contain;
+            background-repeat: no-repeat;
+            border-radius: 30px;
+        }
+    }
 </style>
 <script>
-    if( (navigator.language || navigator.userLanguage).indexOf('ko')>=0 ){
-        window.location.href = "./index.html";    
+    if ((navigator.language || navigator.userLanguage).indexOf('ko') >= 0) {
+        window.location.href = "./index.html";
     }
 </script>
+
 <body class="w3-light-grey">
 
     <!-- Page Container -->
@@ -225,15 +240,20 @@ to {
                     <div class="w3-container">
                         <p class="name">Hyeyeon(May) Kim</p>
                         <p></p>
-                        <p><i class="fa fa-school fa-fw w3-margin-right w3-large iconcolor"></i>IT Web Development Student at Seattle Central College</p>
+                        <p><i class="fa fa-school fa-fw w3-margin-right w3-large iconcolor"></i>IT Web Development
+                            Student at Seattle Central College</p>
                         <p><i class="fa fa-home fa-fw w3-margin-right w3-large iconcolor"></i>Seattle, WA</p>
                         <p><i class="fa fa-envelope fa-fw w3-margin-right w3-large iconcolor"></i>hkim7963@gmail.com</p>
-                        <p><i class="fab fa-linkedin fa-fw w3-margin-right w3-large iconcolor"></i><a href="https://www.linkedin.com/in/hyeyeon-kim-07a9131a6/">MayKim Linkedin</a></p>
-                        <p><i class="fab fa-github fa-fw w3-margin-right w3-large iconcolor"></i><a href="https://github.com/MayHyeyeonKim">MayKim Github</a></p>
-                        <p><i class="fab fa-youtube fa-fw w3-margin-right w3-large iconcolor"></i><a href="https://youtu.be/KpS2ZL3cpGI">MayKim Youtube</a></p>
+                        <p><i class="fab fa-linkedin fa-fw w3-margin-right w3-large iconcolor"></i><a
+                                href="https://www.linkedin.com/in/hyeyeon-kim-07a9131a6/">MayKim Linkedin</a></p>
+                        <p><i class="fab fa-github fa-fw w3-margin-right w3-large iconcolor"></i><a
+                                href="https://github.com/MayHyeyeonKim">MayKim Github</a></p>
+                        <p><i class="fab fa-youtube fa-fw w3-margin-right w3-large iconcolor"></i><a
+                                href="https://youtu.be/KpS2ZL3cpGI">MayKim Youtube</a></p>
 
                         <hr>
-                        <p class="w3-large"><b><i class="fa fa-asterisk fa-fw w3-margin-right iconcolor"></i>Skills</b></p>
+                        <p class="w3-large"><b><i class="fa fa-asterisk fa-fw w3-margin-right iconcolor"></i>Skills</b>
+                        </p>
                         <p>HTML/CSS</p>
                         <div class="w3-light-grey w3-round-xlarge w3-small">
                             <div class="w3-container w3-center w3-round-xlarge tealcolor" style="width:60%">60%</div>
@@ -255,7 +275,8 @@ to {
                             <div class="w3-container w3-center w3-round-xlarge tealcolor" style="width:30%">30%</div>
                         </div>
                         <br>
-                        <p class="w3-large w3-text-theme"><b><i class="fa fa-globe fa-fw w3-margin-right iconcolor"></i>Languages</b></p>
+                        <p class="w3-large w3-text-theme"><b><i
+                                    class="fa fa-globe fa-fw w3-margin-right iconcolor"></i>Languages</b></p>
                         <p>Korean</p>
                         <div class="w3-light-grey w3-round-xlarge">
                             <div class="w3-center w3-round-xlarge tealcolor" style="height:24px;width:100%">native</div>
@@ -275,25 +296,29 @@ to {
             <div class="w3-twothird">
 
                 <div class="w3-container w3-card w3-white w3-margin-bottom">
-                    <h3 class="w3-text-grey w3-padding-16 trigger" data-target="prj"><i class="fa fa-clipboard fa-fw w3-margin-right w3-xlarge iconcolor"></i>Project
-                        <i class="fas fa-chevron-down"  style="margin-left: 5px; position: relative;top: 3px;"></i>
+                    <h3 class="w3-text-grey w3-padding-16 trigger" data-target="prj"><i
+                            class="fa fa-clipboard fa-fw w3-margin-right w3-xlarge iconcolor"></i>Project
+                        <i class="fas fa-chevron-down" style="margin-left: 5px; position: relative;top: 3px;"></i>
                     </h3>
                     <div class="hidden disappear" id="prj">
-                        <div class="w3-container" >
+                        <div class="w3-container">
                             <h5 class="w3-opacity"><b>Shiba Development Typetest App</b></h5>
-                            <h6 class="iconcolor"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Oct 2022 - <span class="w3-tag tealcolor w3-round">Current</span></h6>
+                            <h6 class="iconcolor"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Oct 2022 - <span
+                                    class="w3-tag tealcolor w3-round">Current</span></h6>
                             <p> - Skills Implemented: Javascript, Bootstrap </p>
                             <p class="w3-tag w3-dark-grey w3-round short" data-target="ExcelAddin"></p>
                             <div id="ExcelAddin" class="hidden disappear">
-                                <p>- What : Designed an interactive application using JavaScript and Bootstrap that allows users to explore coding roles.</p> 
+                                <p>- What : Designed an interactive application using JavaScript and Bootstrap that
+                                    allows users to explore coding roles.</p>
                                 <!-- 만든 이야기 -->
                                 <div>
                                     <i class="fa fa-play fa-fw w3-margin-right w3-large iconcolor"></i>
-                                    <a href="../likeshiba/"><span class="w3-tag w3-round href">likeshiba-developertypetest</span></a>
+                                    <a href="../likeshiba/"><span
+                                            class="w3-tag w3-round href">likeshiba-developertypetest</span></a>
                                     <p></p>
                                 </div>
                             </div>
-                        
+
                             <div class="w3-container">
                             </div>
                             <div class="w3-container">
@@ -307,61 +332,84 @@ to {
                 </div>
 
                 <div class="w3-container w3-card w3-white w3-margin-bottom">
-                    <h3 class="w3-text-grey w3-padding-16 trigger" data-target="eductaion"><i class="fa fa-certificate fa-fw w3-margin-right w3-xlarge iconcolor"></i>Education
+                    <h3 class="w3-text-grey w3-padding-16 trigger" data-target="eductaion"><i
+                            class="fa fa-certificate fa-fw w3-margin-right w3-xlarge iconcolor"></i>Education
                         <i class="fas fa-chevron-down" style="margin-left: 5px; position: relative;top: 3px;"></i>
                     </h3>
                     <div class="w3-container hidden disappear" id="eductaion">
                         <h5 class="w3-opacity"><b>Seattle Central College, United States</b></h5>
-                        <h6 class="iconcolor"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Apr 2022 - <span class="w3-tag tealcolor w3-round">Current</span></h6>
+                        <h6 class="iconcolor"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Apr 2022 - <span
+                                class="w3-tag tealcolor w3-round">Current</span></h6>
                         <p>IT Web Development AAS-T</p>
                         <hr>
                         <h5 class="w3-opacity"><b>Pusan National University, South Korea</b></h5>
-                        <h6 class="iconcolor"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Mar 2008 - Feb 2012</h6>
+                        <h6 class="iconcolor"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Mar 2008 - Feb 2012
+                        </h6>
                         <p>Fine Arts Bachelor's degree</p>
-
+                        <hr>
+                        <h5 class="w3-opacity"><b>Pusan National University, South Korea</b></h5>
+                        <h6 class="iconcolor"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Mar 2012 - Feb 2015
+                        </h6>
+                        <p>Fine Arts Master's degree</p>
                     </div>
                 </div>
                 <div class="w3-container w3-card w3-white w3-margin-bottom">
-                    <h3 class="w3-text-grey w3-padding-16 trigger" data-target="workExp"><i class="fa fa-suitcase fa-fw w3-margin-right w3-xlarge iconcolor"></i>Work History
+                    <h3 class="w3-text-grey w3-padding-16 trigger" data-target="workExp"><i
+                            class="fa fa-suitcase fa-fw w3-margin-right w3-xlarge iconcolor"></i>Work History
                         <i class="fas fa-chevron-down" style="margin-left: 5px; position: relative;top: 3px;"></i>
                     </h3>
                     <div class="hidden disappear" id="workExp">
                         <div class="w3-container">
                             <h5 class="w3-opacity"><b>Korean Teacher / SF Korean School, United States</b></h5>
-                            <h6 class="iconcolor"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Feb 2021 - May 2021</h6>
-                            <p>- Developed online classes taught through Zoom for young Korean American learners of Korean while utilizing edutainment tools. </p> 
+                            <h6 class="iconcolor"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Feb 2021 - May
+                                2021</h6>
+                            <p>- Developed online classes taught through Zoom for young Korean American learners of
+                                Korean while utilizing edutainment tools. </p>
                             <p></p>
                             <hr>
                         </div>
                         <div class="w3-container">
                             <h5 class="w3-opacity"><b>Director of Academy / HB English School, South Korea</b></h5>
-                            <h6 class="iconcolor"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Mar 2015 - Dec 2019</h6>
-                            <p>- Administered engaging and academically challenging classes to over 100 students while being recognized for retaining the highest enrollment in Busan as the youngest director.</p> 
+                            <h6 class="iconcolor"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Mar 2015 - Dec
+                                2019</h6>
+                            <p>- Administered engaging and academically challenging classes to over 100 students while
+                                being recognized for retaining the highest enrollment in Busan as the youngest director.
+                            </p>
                             <p></p>
                             <hr>
                         </div>
                         <div class="w3-container">
                             <h5 class="w3-opacity"><b>Franchise Manager / Chunjae Education, South Korea</b></h5>
-                            <h6 class="iconcolor"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Mar 2013 - Mar 2015</h6>
-                            <p>- Worked with a diverse group of directors to lead our company to an increase in enrollment and overall sales by 20% each semester. </p> 
+                            <h6 class="iconcolor"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Mar 2013 - Mar
+                                2015</h6>
+                            <p>- Worked with a diverse group of directors to lead our company to an increase in
+                                enrollment and overall sales by 20% each semester. </p>
                             <p></p>
                         </div>
                     </div>
                 </div>
                 <div class="w3-container w3-card w3-white w3-margin-bottom">
-                    <h3 class="w3-text-grey w3-padding-16 trigger" data-target="award"><i class="fa fa-certificate fa-fw w3-margin-right w3-xlarge iconcolor"></i>Certification<i class="fas fa-chevron-down" style="margin-left: 5px; position: relative;top: 3px;"></i>
+                    <h3 class="w3-text-grey w3-padding-16 trigger" data-target="award"><i
+                            class="fa fa-certificate fa-fw w3-margin-right w3-xlarge iconcolor"></i>Certification<i
+                            class="fas fa-chevron-down" style="margin-left: 5px; position: relative;top: 3px;"></i>
                     </h3>
-                    <div class="w3-container hidden disappear"  id="award">
+                    <div class="w3-container hidden disappear" id="award">
                         <h5 class="w3-opacity"><b>Microsoft Certified: Azure Fundamentals (AZ-900)</b></h5>
                         <h6 class="iconcolor"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Sep 2022</h6>
-                        <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="22d3d272-b1f8-4e96-9ad8-46299c87533b" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
+                        <div data-iframe-width="150" data-iframe-height="270"
+                            data-share-badge-id="22d3d272-b1f8-4e96-9ad8-46299c87533b"
+                            data-share-badge-host="https://www.credly.com"></div>
+                        <script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
                         <hr>
                         <h5 class="w3-opacity"><b>Microsoft Certified: Azure AI Fundamentals (AI-900)</b></h5>
                         <h6 class="iconcolor"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Oct 2022</h6>
-                        <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="981a5ebc-629b-4402-8636-af149feb7308" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
+                        <div data-iframe-width="150" data-iframe-height="270"
+                            data-share-badge-id="981a5ebc-629b-4402-8636-af149feb7308"
+                            data-share-badge-host="https://www.credly.com"></div>
+                        <script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
                         <p></p>
                     </div>
-                    
+
                 </div>
                 <!-- End Right Column -->
             </div>
@@ -373,47 +421,48 @@ to {
     </div>
 
     <footer class="w3-container tealcolor w3-center w3-margin-top">
-        <p> </p><br><p></p>
+        <p> </p><br>
+        <p></p>
         <div style="display: none">
-        <i class="fa fa-facebook-official w3-hover-opacity"></i>
-        <i class="fa fa-instagram w3-hover-opacity"></i>
-        <i class="fa fa-snapchat w3-hover-opacity"></i>
-        <i class="fa fa-pinterest-p w3-hover-opacity"></i>
-        <i class="fa fa-twitter w3-hover-opacity"></i>
-        <i class="fa fa-linkedin w3-hover-opacity"></i>
+            <i class="fa fa-facebook-official w3-hover-opacity"></i>
+            <i class="fa fa-instagram w3-hover-opacity"></i>
+            <i class="fa fa-snapchat w3-hover-opacity"></i>
+            <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+            <i class="fa fa-twitter w3-hover-opacity"></i>
+            <i class="fa fa-linkedin w3-hover-opacity"></i>
         </div>
     </footer>
     <script>
         window.onload = () => {
 
 
-            document.querySelectorAll('.trigger').forEach((elem)=>{
-                elem.addEventListener('click', function(){
-                    let target = document.querySelector('#'+this.dataset.target);
+            document.querySelectorAll('.trigger').forEach((elem) => {
+                elem.addEventListener('click', function () {
+                    let target = document.querySelector('#' + this.dataset.target);
                     let span = this.querySelector('span');
                     let chevronDown = this.querySelector('i.fa-chevron-down');
-                    if(target.classList.contains('disappear')){
+                    if (target.classList.contains('disappear')) {
                         target.classList.remove('disappear');
                         //target.classList.remove('hidden');
                         target.classList.add('appear');
-                        if(span) span.textContent = 'Less';
-                        if(chevronDown) chevronDown.classList.remove('flipdown');
-                        if(chevronDown) chevronDown.classList.add('flipup');
-                    }else{
+                        if (span) span.textContent = 'Less';
+                        if (chevronDown) chevronDown.classList.remove('flipdown');
+                        if (chevronDown) chevronDown.classList.add('flipup');
+                    } else {
                         target.classList.remove('appear');
                         target.classList.add('disappear');
                         //setTimeout(()=>{target.classList.add('hidden');},1500);
-                        
-                        if(span) span.textContent = 'More';
-                        if(chevronDown) chevronDown.classList.remove('flipup');
-                        if(chevronDown) chevronDown.classList.add('flipdown');
+
+                        if (span) span.textContent = 'More';
+                        if (chevronDown) chevronDown.classList.remove('flipup');
+                        if (chevronDown) chevronDown.classList.add('flipdown');
                     }
                 });
             });
 
-            document.querySelectorAll('.short').forEach((elem)=>{
-                elem.addEventListener('click', function(){
-                    let target = document.querySelector('#'+this.dataset.target);
+            document.querySelectorAll('.short').forEach((elem) => {
+                elem.addEventListener('click', function () {
+                    let target = document.querySelector('#' + this.dataset.target);
                     target.classList.remove('disappear');
                     target.classList.add('appear');
                     this.style.display = 'none';
